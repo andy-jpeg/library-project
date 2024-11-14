@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/library.js"></script>
+    <title>My Library</title>
+  </head>
+
+  <body>
+    <form class="book-form" method="post">
+      <input type="text" name="book-name" id="book-name" placeholder="Book Name" required>
+      <label for="book-name"></label>
+
+      <input type="text" name="book-author" id="book-author" placeholder="Author" required>
+      <label for="book-author"></label>
+
+      <input type="number" name="pages" id="pages" placeholder="Number of Pages" required>
+      <label for="pages"></label>
+
+      <input type="checkbox" name="haveRead" id="haveRead">
+      <label for="haveRead">Finished the book?</label>
+
+      <button class="submit-button" type="submit">Submit</button>
+    </form>
+
+    <div class="library">
+      <div class="card">
+        <p>Title:</p>
+        <p>Author:</p>
+        <p>Pages:</p>
+        <p>Have Read:</p>
+
+        <button class="delete">Delete</button>
+      </div>
+    </div>
+  </body>
+</html>

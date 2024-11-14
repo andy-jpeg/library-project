@@ -1,0 +1,14 @@
+.library {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  border: black solid 2px;
+  visibility: hidden;
+}
